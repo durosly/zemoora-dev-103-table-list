@@ -1,0 +1,41 @@
+ul {
+	padding-left: 0;
+	list-style-position: inside;
+	list-style-type: square;
+	/* background-color: red; */
+}
+
+ol {
+	list-style-type: upper-roman;
+	list-style-position: outside;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td,
+th,
+tr {
+	/* border: 1px solid black; */
+}
+
+thead {
+	background-color: blanchedalmond;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #701414; /* light gray */
+}
+
+th {
+	text-align: left;
+	text-transform: capitalize;
+}
+
+th,
+td {
+	padding: 10px;
+}
